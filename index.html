@@ -4,55 +4,145 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Kesar Mithai Ghar Patna | Fresh Mithai and Gift Boxes (Demo)</title>
-<meta name="description" content="Demo sweet shop website: fresh mithai, gift boxes and WhatsApp orders in Patna.">
+<meta name="description" content="Demo sweet shop website: fresh mithai, build your own gift box and WhatsApp orders in Patna.">
+<meta name="theme-color" content="#d1236b">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
-<link href="style.css?v=4" rel="stylesheet">
-<link href="fx.css?v=4" rel="stylesheet">
-<script>document.documentElement.classList.add('fx-js')</script>
-<style id="center-fix">html{overflow-x:hidden}body{overflow-x:clip;max-width:100%}figure.swap,.swap,.m-0{margin:0!important}.swap{width:100%!important;margin-inline:auto!important}</style>
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;700&family=Rozha+One&display=swap" rel="stylesheet">
+<link href="style.css?v=7" rel="stylesheet">
 </head>
 <body>
-<nav class="nav"><div class="wrap"><a class="brand" href="#top">Kesar Mithai Ghar</a><ul><li><a href="#sweets">Sweets</a></li><li><a href="#boxes">Gift boxes</a></li><li><a href="#visit">Visit</a></li></ul></div></nav>
-<header class="hero" id="top" style="background-image:url(img/display.jpg)">
-  <div class="wrap"><span data-open data-from="8" data-to="22" data-tz="Asia/Kolkata"></span><br><span class="kick" style="margin-top:14px">Family sweet shop · Patna</span><h1>Fresh mithai, made every morning.</h1><p>Pure ghee sweets, hot jalebi in the evening and festival gift boxes, made fresh in our kitchen on Boring Road.</p><div class="acts"><a class="btn" href="https://wa.me/" target="_blank" rel="noopener">Order on WhatsApp</a><a class="btn ghost" href="#sweets">See prices</a></div></div>
+
+<a class="skip" href="#menu">Skip to the sweets</a>
+<header class="top">
+ <div class="toran" aria-hidden="true"></div>
+ <div class="bar">
+  <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="drawer"><i></i><i></i><i></i></button>
+  <a class="logo" href="#top"><small>केसर मिठाई घर</small><strong>Kesar Mithai Ghar</strong><em>Since 1978 · Boring Road, Patna</em></a>
+  <a class="bar-order" href="#giftbox">Order</a>
+ </div>
+ <nav class="links" aria-label="Main"><a href="#menu">Price list</a><a href="#giftbox">Gift box</a><a href="#diwali">Diwali offer</a><a href="#love">Reviews</a><a href="#faq">FAQ</a><a href="#visit">Visit us</a></nav>
 </header>
-<div class="marquee" aria-hidden="true"><div><span>Kaju katli</span>&bull;<span>Gulab jamun</span>&bull;<span>Jalebi</span>&bull;<span>Khaja</span>&bull;<span>Thekua</span>&bull;<span>Laddu</span>&bull;<span>Kaju katli</span>&bull;<span>Gulab jamun</span>&bull;<span>Jalebi</span>&bull;<span>Khaja</span>&bull;<span>Thekua</span>&bull;<span>Laddu</span>&bull;</div></div>
-<section class="zoom-stage" id="boxes" aria-label="Festival gift box">
-  <div class="zoom-sticky">
-    <img class="zoom-img" src="img/box.jpg" alt="An open box of assorted barfi" width="1600" height="1200" decoding="async">
-    <div class="zoom-top"><span class="zoom-kick">Scroll to open</span><h2>The festival box</h2></div>
-    <div class="zoom-cap"><span class="zoom-kick">Diwali, Chhath, weddings</span><h2>Gift boxes from ₹450</h2><p style="margin:.6rem 0 0">Pick any 4 sweets. Half kg and 1 kg boxes, packed the same day.</p></div>
+<div class="scrim" hidden></div>
+<aside class="drawer" id="drawer" aria-label="Menu" aria-hidden="true">
+ <div class="drawer-head"><strong>Kesar Mithai Ghar</strong><button class="drawer-x" type="button" aria-label="Close menu">×</button></div>
+ <nav><a href="#menu">Price list</a><a href="#giftbox">Gift box</a><a href="#diwali">Diwali offer</a><a href="#love">Reviews</a><a href="#faq">FAQ</a><a href="#visit">Visit us</a></nav>
+ <p class="drawer-note">Open every day, 8am to 10pm</p>
+</aside>
+
+<main id="top">
+<section class="hero">
+ <div class="wrap hero-grid">
+  <div class="hero-txt" data-reveal>
+   <span class="open-pill" data-open data-from="8" data-to="22" data-tz="Asia/Kolkata"><i></i>Open now</span>
+   <h1>Fresh mithai,<br><span>made every morning.</span></h1>
+   <p class="hero-p">Three generations of halwais on Boring Road. Pure ghee, real kesar and the Bihar sweets your nani remembers.</p>
+   <div class="acts"><a class="btn" href="#giftbox">Build a gift box</a><a class="btn alt" href="#menu">See the price list</a></div>
+   <ul class="trust"><li>Pure desi ghee</li><li>Made fresh daily</li><li>Home delivery in Patna</li></ul>
   </div>
+  <div class="collage" aria-label="Our sweets">
+   <figure class="pol p1"><img src="img/s-box.jpg" alt="Gift box of assorted barfi" width="720" height="540"><figcaption>Gift boxes</figcaption></figure>
+   <figure class="pol p2 arch"><img src="img/s-laddu.jpg" alt="Laddu on a plate" width="720" height="480"><figcaption>Laddu</figcaption></figure>
+   <figure class="pol p3 arch"><img src="img/s-jalebi.jpg" alt="Hot jalebi" width="720" height="541"><figcaption>Hot jalebi</figcaption></figure>
+   <figure class="pol p4"><img src="img/s-katli.jpg" alt="Kaju katli pieces" width="720" height="540"><figcaption>Kaju katli</figcaption></figure>
+   <span class="stamp" aria-hidden="true">Shuddh<br>ghee</span>
+  </div>
+ </div>
 </section>
-<section id="feature"><div class="wrap split">
-  <div class="spin3d" data-reveal><img src="img/katli.jpg" alt="Kaju katli pieces" width="1600" height="1200" loading="lazy"></div>
-  <div data-reveal><span class="tag">Bestseller</span><h2 class="h2">Kaju katli, thin and soft.</h2><p class="lead">Ground cashew and sugar, cooked slow, rolled thin and cut by hand. No colour, no shortcuts.</p><p class="price" style="font-size:1.6rem">₹1,100 / kg</p><a class="btn" href="https://wa.me/" target="_blank" rel="noopener">Order 1 kg</a></div>
-</div></section>
-<section id="sweets" style="background:var(--soft)"><div class="wrap">
-  <span class="kick" data-reveal>Price list</span><h2 class="h2" data-reveal>Today's sweets</h2><p class="lead" data-reveal>Prices include the box. Bulk orders for weddings and pujas get a better rate, just ask on WhatsApp.</p>
-  <div class="grid g2" style="margin-top:28px"><div class="card" data-reveal><div class="row"><h3>Kaju katli</h3><span class="price">₹1,100 / kg</span></div><p>Cashew fudge with silver vark</p></div><div class="card" data-reveal><div class="row"><h3>Motichoor laddu</h3><span class="price">₹480 / kg</span></div><p>Soft boondi laddu in pure ghee</p></div><div class="card" data-reveal><div class="row"><h3>Gulab jamun</h3><span class="price">₹20 / piece</span></div><p>Warm, soaked in rose syrup</p></div><div class="card" data-reveal><div class="row"><h3>Jalebi</h3><span class="price">₹240 / kg</span></div><p>Crisp and hot every evening</p></div><div class="card" data-reveal><div class="row"><h3>Khaja</h3><span class="price">₹360 / kg</span></div><p>Flaky layered sweet, a Bihar classic</p></div><div class="card" data-reveal><div class="row"><h3>Thekua</h3><span class="price">₹300 / kg</span></div><p>Chhath favourite, jaggery and wheat</p></div><div class="card" data-reveal><div class="row"><h3>Rasgulla</h3><span class="price">₹20 / piece</span></div><p>Spongy chhena balls in light syrup</p></div><div class="card" data-reveal><div class="row"><h3>Besan laddu</h3><span class="price">₹520 / kg</span></div><p>Roasted gram flour and ghee</p></div></div>
-</div></section>
-<section id="looks"><div class="wrap">
-  <span class="kick" data-reveal>Fresh from the kitchen</span><h2 class="h2" data-reveal>Tap to taste</h2>
-  <div class="grid g3" style="margin-top:28px">
-    <div data-reveal><figure class="swap m-0" role="button" tabindex="0" aria-label="Jalebi and laddu"><img src="img/jalebi.jpg" alt="Jalebi" loading="lazy"><img src="img/laddu.jpg" alt="Laddu" loading="lazy"><figcaption>Evening specials<small>Jalebi, laddu</small></figcaption></figure></div>
-    <div data-reveal><figure class="swap m-0" role="button" tabindex="0" aria-label="Gulab jamun and kaju katli"><img src="img/jamun.jpg" alt="Gulab jamun" loading="lazy"><img src="img/katli.jpg" alt="Kaju katli" loading="lazy"><figcaption>Party favourites<small>Gulab jamun, kaju katli</small></figcaption></figure></div>
-    <div data-reveal><figure class="swap m-0" role="button" tabindex="0" aria-label="Sweet counter"><img src="img/display.jpg" alt="Sweet shop counter" loading="lazy"><img src="img/box.jpg" alt="Gift box" loading="lazy"><figcaption>The counter<small>Over 30 sweets daily</small></figcaption></figure></div>
+
+<section class="sec menu-sec" id="menu">
+ <div class="wrap">
+  <div class="head" data-reveal><span class="kick">Rate list</span><h2>Today at the counter</h2><p>Prices are for fresh stock. Bengali sweets are priced per piece.</p></div>
+  <div class="menu-card" data-reveal><div class="tabs" role="tablist" aria-label="Sweet types"><button type="button" role="tab" id="tab-barfi" aria-controls="p-barfi" aria-selected="true" class="on">Barfi</button><button type="button" role="tab" id="tab-laddu" aria-controls="p-laddu" aria-selected="false" class="">Laddu</button><button type="button" role="tab" id="tab-bengali" aria-controls="p-bengali" aria-selected="false" class="">Bengali</button><button type="button" role="tab" id="tab-bihar" aria-controls="p-bihar" aria-selected="false" class="">Bihar specials</button></div><ul class="menu" role="tabpanel" id="p-barfi" aria-labelledby="tab-barfi"><li><div class="dl"><span class="nm">Kaju katli</span><i aria-hidden="true"></i><b>₹1,100/kg</b></div><small>Thin cashew diamonds with real silver leaf</small></li><li><div class="dl"><span class="nm">Kesar pista barfi</span><i aria-hidden="true"></i><b>₹900/kg</b></div><small>Saffron milk barfi topped with pista</small></li><li><div class="dl"><span class="nm">Milk barfi</span><i aria-hidden="true"></i><b>₹560/kg</b></div><small>Slow cooked khoya, light on sugar</small></li><li><div class="dl"><span class="nm">Coconut barfi</span><i aria-hidden="true"></i><b>₹480/kg</b></div><small>Fresh coconut and cardamom</small></li></ul><ul class="menu" role="tabpanel" id="p-laddu" aria-labelledby="tab-laddu" hidden><li><div class="dl"><span class="nm">Motichoor laddu</span><i aria-hidden="true"></i><b>₹480/kg</b></div><small>Tiny boondi in pure ghee, our bestseller</small></li><li><div class="dl"><span class="nm">Besan laddu</span><i aria-hidden="true"></i><b>₹520/kg</b></div><small>Roasted gram flour, cashew bits</small></li><li><div class="dl"><span class="nm">Dry fruit laddu</span><i aria-hidden="true"></i><b>₹1,200/kg</b></div><small>Dates and nuts, no added sugar</small></li><li><div class="dl"><span class="nm">Til laddu</span><i aria-hidden="true"></i><b>₹400/kg</b></div><small>Sesame and jaggery, made for winter</small></li></ul><ul class="menu" role="tabpanel" id="p-bengali" aria-labelledby="tab-bengali" hidden><li><div class="dl"><span class="nm">Rasgulla</span><i aria-hidden="true"></i><b>₹20/pc</b></div><small>Soft chhena balls in light syrup</small></li><li><div class="dl"><span class="nm">Rasmalai</span><i aria-hidden="true"></i><b>₹35/pc</b></div><small>In saffron rabdi, served chilled</small></li><li><div class="dl"><span class="nm">Gulab jamun</span><i aria-hidden="true"></i><b>₹20/pc</b></div><small>Warm, soaked in rose syrup</small></li><li><div class="dl"><span class="nm">Chamcham</span><i aria-hidden="true"></i><b>₹25/pc</b></div><small>Stuffed with khoya and coconut</small></li></ul><ul class="menu" role="tabpanel" id="p-bihar" aria-labelledby="tab-bihar" hidden><li><div class="dl"><span class="nm">Silao khaja</span><i aria-hidden="true"></i><b>₹360/kg</b></div><small>Flaky layered pastry, crisp and sweet</small></li><li><div class="dl"><span class="nm">Thekua</span><i aria-hidden="true"></i><b>₹300/kg</b></div><small>Wheat, jaggery and ghee, the Chhath favourite</small></li><li><div class="dl"><span class="nm">Gaya tilkut</span><i aria-hidden="true"></i><b>₹380/kg</b></div><small>Pounded sesame with sugar or jaggery</small></li><li><div class="dl"><span class="nm">Anarsa</span><i aria-hidden="true"></i><b>₹400/kg</b></div><small>Rice and jaggery, rolled in poppy seeds</small></li><li><div class="dl"><span class="nm">Balushahi</span><i aria-hidden="true"></i><b>₹400/kg</b></div><small>Ghee fried, glazed and flaky</small></li></ul></div>
+ </div>
+</section>
+
+<section class="sec gift" id="giftbox">
+ <div class="wrap gift-grid">
+  <div data-reveal>
+   <span class="kick">Build your gift box</span>
+   <h2>Pick any 4 sweets</h2>
+   <p>Each choice fills one quarter of a 1 kg box (250 g each). Tap again to remove.</p>
+   <div class="chips" role="group" aria-label="Sweets for the box"><button type="button" class="chip" data-k="katli" data-p="275" data-c="#e9e4d6" aria-pressed="false"><span>Kaju katli</span><small>₹275</small></button><button type="button" class="chip" data-k="motichoor" data-p="120" data-c="#ff9a1f" aria-pressed="false"><span>Motichoor laddu</span><small>₹120</small></button><button type="button" class="chip" data-k="pista" data-p="225" data-c="#f4d27a" aria-pressed="false"><span>Kesar pista barfi</span><small>₹225</small></button><button type="button" class="chip" data-k="jamun" data-p="100" data-c="#7a2a12" aria-pressed="false"><span>Gulab jamun</span><small>₹100</small></button><button type="button" class="chip" data-k="rasgulla" data-p="90" data-c="#fbf7ef" aria-pressed="false"><span>Rasgulla</span><small>₹90</small></button><button type="button" class="chip" data-k="khaja" data-p="90" data-c="#e8b766" aria-pressed="false"><span>Silao khaja</span><small>₹90</small></button><button type="button" class="chip" data-k="thekua" data-p="75" data-c="#a8642a" aria-pressed="false"><span>Thekua</span><small>₹75</small></button><button type="button" class="chip" data-k="tilkut" data-p="95" data-c="#d9c39a" aria-pressed="false"><span>Gaya tilkut</span><small>₹95</small></button></div>
+   <p class="chip-msg" aria-live="polite"></p>
   </div>
-</div></section>
-<section id="visit" style="background:var(--soft)"><div class="wrap split">
-  <div data-reveal><span class="kick">Visit or order</span><h2 class="h2">Come hungry.</h2>
-    <div class="info"><div class="card"><h3>Address</h3><p>Boring Road, near the main chauraha, Patna, Bihar</p></div><div class="card"><h3>Timings</h3><p>Every day 8am to 10pm. Hot jalebi from 5pm.</p></div><div class="card"><h3>Home delivery</h3><p>Across Patna on orders above ₹500. Order on WhatsApp, pay on delivery or UPI.</p></div></div>
-    <p style="margin-top:20px"><a class="btn" href="https://wa.me/" target="_blank" rel="noopener">Order on WhatsApp</a></p></div>
-  <div data-reveal><iframe class="map" title="Map" src="https://www.openstreetmap.org/export/embed.html?bbox=85.0900%2C25.6000%2C85.1350%2C25.6250&amp;layer=mapnik&amp;marker=25.6120%2C85.1120" loading="lazy"></iframe></div>
-</div></section>
-<footer><div class="wrap">Demo website. Kesar Mithai Ghar is a fictional sweet shop; prices are examples.<br>Photos from Wikimedia Commons: <a href="https://commons.wikimedia.org/wiki/File:A_box_full_of_burfis,_Mithai_Indian_Sweets_London_November_2009.jpg" rel="noopener">A box full of burfis, Mithai Indian Swee</a> by secretlondon123 (<a href="https://creativecommons.org/licenses/by-sa/2.0/" rel="noopener">CC BY-SA 2.0</a>); <a href="https://commons.wikimedia.org/wiki/File:Kaju_katli,_photographed_in_West_Bengal,_India,_February_10,_2024.jpg" rel="noopener">Kaju katli, photographed in West Bengal,</a> by Billjones94 (<a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="noopener">CC0</a>); <a href="https://commons.wikimedia.org/wiki/File:Jalebi_2.jpg" rel="noopener">Jalebi 2</a> by Haroldandkumar at English Wikipedia (<a href="https://en.wikipedia.org/wiki/Public_domain" rel="noopener">Public domain</a>); <a href="https://commons.wikimedia.org/wiki/File:Two_Gulab_Jamun_in_a_plate_01.jpg" rel="noopener">Two Gulab Jamun in a plate 01</a> by Suyash.dwivedi (<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>); <a href="https://commons.wikimedia.org/wiki/File:Laddu_Sweet.JPG" rel="noopener">Laddu Sweet</a> by Nandhinikandhasamy (<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>); <a href="https://commons.wikimedia.org/wiki/File:Display_of_Indian_Sweets_Mithai_in_Kolkata,_West_Bengal.jpg" rel="noopener">Display of Indian Sweets Mithai in Kolka</a> by Dipanker Dutta (<a href="https://creativecommons.org/licenses/by/2.0/" rel="noopener">CC BY 2.0</a>).<br>Design and code by Mohammad Gulab.</div></footer>
+  <div class="box-wrap" data-reveal>
+   <div class="box" aria-live="polite">
+    <div class="box-lid"><span>Kesar Mithai Ghar</span></div>
+    <div class="slots"><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div></div>
+   </div>
+   <div class="box-sum">
+    <div class="tot"><span>Box total</span><b id="box-total">₹0</b></div>
+    <small id="box-count">0 of 4 chosen</small>
+    <a class="btn wa" id="box-order" href="https://wa.me/" target="_blank" rel="noopener" aria-disabled="true">Order this box on WhatsApp</a>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="diwali" id="diwali">
+ <div class="wrap diwali-in" data-reveal>
+  <div class="dw-txt"><span class="kick">Festival offer</span><h2>Diwali boxes, 10% off till Dhanteras</h2><p>Pre-book office and family boxes now. We pack, label and deliver across Patna.</p></div>
+  <div class="count" data-to="2026-11-08T00:00:00+05:30" role="timer" aria-label="Countdown to Diwali">
+   <div><b data-u="d">00</b><span>days</span></div><div><b data-u="h">00</b><span>hours</span></div><div><b data-u="m">00</b><span>mins</span></div><div><b data-u="s">00</b><span>secs</span></div>
+  </div>
+ </div>
+</section>
+
+<section class="sec love" id="love">
+ <div class="wrap">
+  <div class="head" data-reveal><span class="kick">Kind words</span><h2>Patna loves its mithai</h2></div>
+  <div class="quotes">
+   <figure class="q" data-reveal><blockquote><p>The motichoor tastes exactly like my wedding laddu from 1994. We order every Diwali.</p></blockquote><figcaption><strong>Sunita Sinha</strong><small>Kankarbagh</small></figcaption></figure>
+   <figure class="q" data-reveal><blockquote><p>Ordered 60 boxes for our office on WhatsApp. Packed neatly and delivered on time.</p></blockquote><figcaption><strong>Rahul Verma</strong><small>Fraser Road</small></figcaption></figure>
+   <figure class="q" data-reveal><blockquote><p>Their thekua is the closest thing to home I can find. Not too sweet, very crisp.</p></blockquote><figcaption><strong>Anjali Kumari</strong><small>Patliputra Colony</small></figcaption></figure>
+  </div>
+ </div>
+</section>
+
+<section class="sec faq" id="faq">
+ <div class="wrap faq-grid">
+  <div class="head" data-reveal><span class="kick">Questions</span><h2>Good to know</h2><img class="faq-img arch" src="img/s-jamun.jpg" alt="Two gulab jamun in a plate" width="720" height="540" loading="lazy"></div>
+  <div class="acc">
+   <details open><summary><span>Do you deliver in Patna?</span></summary><p>Yes, across Patna city for orders above ₹500. Most orders reach you the same day.</p></details>
+   <details><summary><span>How long do the sweets stay fresh?</span></summary><p>Milk sweets are best in 2 days, kept cool. Laddu, khaja and thekua stay good for about a week.</p></details>
+   <details><summary><span>Can I order for a wedding or puja?</span></summary><p>Of course. Send the date and quantity on WhatsApp and we will share a quote the same day.</p></details>
+   <details><summary><span>Do you have sugar free sweets?</span></summary><p>Our dry fruit laddu has no added sugar. Ask at the counter for the day's sugar free barfi.</p></details>
+  </div>
+ </div>
+</section>
+
+<section class="sec visit" id="visit">
+ <div class="wrap visit-card" data-reveal>
+  <div class="visit-txt">
+   <span class="kick">Visit us</span>
+   <h2>Come for the jalebi, stay for the chai</h2>
+   <ul class="vlist">
+    <li><b>Address</b><span>Near Boring Road Chauraha, Patna, Bihar 800001</span></li>
+    <li><b>Hours</b><span>Every day, 8am to 10pm</span></li>
+    <li><b>Hot jalebi</b><span>7am to 11am and 5pm to 9pm</span></li>
+   </ul>
+   <form class="bulk" data-wa="Bulk order request for Kesar Mithai Ghar">
+    <h3>Bulk order for a wedding or puja</h3>
+    <label><span>Your name</span><input name="Name" required autocomplete="name"></label>
+    <label><span>Occasion</span><select name="Occasion"><option value="Wedding">Wedding</option><option value="Puja">Puja</option><option value="Office">Office</option><option value="Birthday">Birthday</option></select></label>
+    <label><span>Boxes needed</span><input name="Boxes" type="number" min="5" value="20" inputmode="numeric"></label>
+    <label><span>Date</span><input name="Date" type="date"></label>
+    <button class="btn" type="submit">Send on WhatsApp</button>
+    <p class="wa-out" hidden>WhatsApp did not open? <a href="https://wa.me/" target="_blank" rel="noopener">Tap here</a></p>
+   </form>
+  </div>
+  <div class="map-frame arch"><iframe title="Map of Boring Road, Patna" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=85.0900%2C25.6000%2C85.1350%2C25.6250&amp;layer=mapnik&amp;marker=25.6120%2C85.1120"></iframe></div>
+ </div>
+</section>
+</main>
+
+<footer><div class="toran" aria-hidden="true"></div><div class="wrap">Demo website. Kesar Mithai Ghar is a fictional sweet shop; prices are examples.<br>Photos from Wikimedia Commons: <a href="https://commons.wikimedia.org/wiki/File:A_box_full_of_burfis,_Mithai_Indian_Sweets_London_November_2009.jpg" rel="noopener">A box full of burfis, Mithai Indian Swee</a> by secretlondon123 (<a href="https://creativecommons.org/licenses/by-sa/2.0/" rel="noopener">CC BY-SA 2.0</a>); <a href="https://commons.wikimedia.org/wiki/File:Kaju_katli,_photographed_in_West_Bengal,_India,_February_10,_2024.jpg" rel="noopener">Kaju katli, photographed in West Bengal,</a> by Billjones94 (<a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="noopener">CC0</a>); <a href="https://commons.wikimedia.org/wiki/File:Jalebi_2.jpg" rel="noopener">Jalebi 2</a> by Haroldandkumar at English Wikipedia (<a href="https://en.wikipedia.org/wiki/Public_domain" rel="noopener">Public domain</a>); <a href="https://commons.wikimedia.org/wiki/File:Two_Gulab_Jamun_in_a_plate_01.jpg" rel="noopener">Two Gulab Jamun in a plate 01</a> by Suyash.dwivedi (<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>); <a href="https://commons.wikimedia.org/wiki/File:Laddu_Sweet.JPG" rel="noopener">Laddu Sweet</a> by Nandhinikandhasamy (<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>); <a href="https://commons.wikimedia.org/wiki/File:Display_of_Indian_Sweets_Mithai_in_Kolkata,_West_Bengal.jpg" rel="noopener">Display of Indian Sweets Mithai in Kolka</a> by Dipanker Dutta (<a href="https://creativecommons.org/licenses/by/2.0/" rel="noopener">CC BY 2.0</a>).<br>Design and code by Mohammad Gulab.</div></footer>
 <a class="wa-float" href="https://wa.me/" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M16.04 3C9.1 3 3.47 8.6 3.47 15.5c0 2.2.58 4.36 1.68 6.26L3.36 28.4l6.82-1.78a12.6 12.6 0 0 0 5.86 1.47h.01c6.93 0 12.57-5.6 12.57-12.5C28.62 8.6 22.98 3 16.04 3zm0 22.95h-.01a10.5 10.5 0 0 1-5.33-1.45l-.38-.23-4.05 1.06 1.08-3.93-.25-.4a10.3 10.3 0 0 1-1.6-5.5c0-5.74 4.7-10.4 10.5-10.4 5.79 0 10.49 4.66 10.49 10.4 0 5.75-4.7 10.45-10.45 10.45zm5.76-7.8c-.32-.16-1.86-.91-2.15-1.02-.29-.1-.5-.16-.71.16-.21.31-.82 1.02-1 1.23-.18.21-.37.23-.68.08-.32-.16-1.33-.49-2.53-1.55-.94-.83-1.57-1.86-1.75-2.17-.18-.31-.02-.48.14-.64.14-.14.32-.37.47-.55.16-.18.21-.31.32-.52.1-.21.05-.39-.03-.55-.08-.16-.71-1.7-.97-2.33-.26-.61-.52-.53-.71-.54h-.61c-.21 0-.55.08-.84.39-.29.31-1.1 1.07-1.1 2.62 0 1.54 1.13 3.03 1.29 3.24.16.21 2.22 3.37 5.37 4.72.75.32 1.34.52 1.8.66.75.24 1.44.2 1.98.12.6-.09 1.86-.75 2.12-1.48.26-.73.26-1.36.18-1.49-.08-.13-.29-.21-.6-.36z"/></svg><span>WhatsApp</span></a>
-<script>(function(){var n=document.querySelector('.nav');function f(){n.classList.toggle('solid',window.scrollY>40)}f();window.addEventListener('scroll',f,{passive:true})})()</script>
-<script type="application/json" id="i18n">{"lang": "hi", "dir": "ltr", "label": "हिन्दी", "name": "Hindi", "t": {"Sweets": "मिठाइयाँ", "Gift boxes": "गिफ्ट बॉक्स", "Visit": "आइए", "Family sweet shop · Patna": "पारिवारिक मिठाई दुकान · पटना", "Fresh mithai, made every morning.": "ताज़ा मिठाई, हर सुबह बनी.", "Pure ghee sweets, hot jalebi in the evening and festival gift boxes, made fresh in our kitchen on Boring Road.": "शुद्ध घी की मिठाइयाँ, शाम को गरम जलेबी और त्योहार के गिफ्ट बॉक्स, बोरिंग रोड की हमारी रसोई में ताज़ा बने.", "Order on WhatsApp": "WhatsApp पर ऑर्डर करें", "See prices": "दाम देखें", "Scroll to open": "खोलने के लिए स्क्रॉल करें", "The festival box": "त्योहार का डिब्बा", "Diwali, Chhath, weddings": "दिवाली, छठ, शादी", "Gift boxes from ₹450": "गिफ्ट बॉक्स ₹450 से", "Bestseller": "सबसे ज़्यादा बिकने वाली", "Kaju katli, thin and soft.": "काजू कतली, पतली और मुलायम.", "Order 1 kg": "1 किलो ऑर्डर करें", "Price list": "दाम सूची", "Today's sweets": "आज की मिठाइयाँ", "Kaju katli": "काजू कतली", "Motichoor laddu": "मोतीचूर लड्डू", "Gulab jamun": "गुलाब जामुन", "Jalebi": "जलेबी", "Khaja": "खाजा", "Thekua": "ठेकुआ", "Rasgulla": "रसगुल्ला", "Besan laddu": "बेसन लड्डू", "Fresh from the kitchen": "रसोई से ताज़ा", "Tap to taste": "टैप करें और देखें", "Visit or order": "आइए या ऑर्डर करें", "Come hungry.": "भूख लेकर आइए.", "Address": "पता", "Timings": "समय", "Home delivery": "होम डिलीवरी", "Every day 8am to 10pm. Hot jalebi from 5pm.": "रोज़ सुबह 8 से रात 10 बजे तक. गरम जलेबी शाम 5 बजे से.", "Evening specials": "शाम की खास", "Party favourites": "पार्टी की पसंद", "The counter": "काउंटर"}}</script>
-<script src="i18n.js?v=4"></script>
-<script src="dyn.js?v=4"></script>
-<script src="fx.js?v=4"></script>
+
+<script type="application/json" id="i18n">{"lang": "hi", "dir": "ltr", "label": "हिन्दी", "name": "Hindi", "t": {"Barfi": "बर्फी", "Kaju katli": "काजू कतली", "Thin cashew diamonds with real silver leaf": "चांदी के वर्क वाली पतली काजू कतली", "Kesar pista barfi": "केसर पिस्ता बर्फी", "Saffron milk barfi topped with pista": "पिस्ता से सजी केसरिया दूध की बर्फी", "Milk barfi": "मिल्क बर्फी", "Slow cooked khoya, light on sugar": "धीमी आंच का खोया, कम मीठा", "Coconut barfi": "नारियल बर्फी", "Fresh coconut and cardamom": "ताज़ा नारियल और इलायची", "Laddu": "लड्डू", "Motichoor laddu": "मोतीचूर लड्डू", "Tiny boondi in pure ghee, our bestseller": "शुद्ध घी की बारीक बूंदी, सबसे ज़्यादा बिकने वाला", "Besan laddu": "बेसन लड्डू", "Roasted gram flour, cashew bits": "भुना बेसन, काजू के टुकड़े", "Dry fruit laddu": "ड्राई फ्रूट लड्डू", "Dates and nuts, no added sugar": "खजूर और मेवे, बिना चीनी", "Til laddu": "तिल लड्डू", "Sesame and jaggery, made for winter": "तिल और गुड़, सर्दियों के लिए", "Bengali": "बंगाली", "Rasgulla": "रसगुल्ला", "Soft chhena balls in light syrup": "हल्की चाशनी में नरम छेना", "Rasmalai": "रसमलाई", "In saffron rabdi, served chilled": "केसरिया रबड़ी में, ठंडी", "Gulab jamun": "गुलाब जामुन", "Warm, soaked in rose syrup": "गरम, गुलाब की चाशनी में", "Chamcham": "चमचम", "Stuffed with khoya and coconut": "खोया और नारियल भरी", "Bihar specials": "बिहार स्पेशल", "Silao khaja": "सिलाव खाजा", "Flaky layered pastry, crisp and sweet": "परतदार कुरकुरा खाजा", "Thekua": "ठेकुआ", "Wheat, jaggery and ghee, the Chhath favourite": "गेहूं, गुड़ और घी, छठ वाला", "Gaya tilkut": "गया तिलकुट", "Pounded sesame with sugar or jaggery": "कुटा तिल, चीनी या गुड़ के साथ", "Anarsa": "अनरसा", "Rice and jaggery, rolled in poppy seeds": "चावल और गुड़, खसखस में लिपटा", "Balushahi": "बालूशाही", "Ghee fried, glazed and flaky": "घी में तली, चाशनी वाली", "Skip to the sweets": "मिठाई पर जाएं", "Kesar Mithai Ghar": "केसर मिठाई घर", "Since 1978 · Boring Road, Patna": "1978 से · बोरिंग रोड, पटना", "Order": "ऑर्डर", "Price list": "रेट लिस्ट", "Gift box": "गिफ्ट बॉक्स", "Diwali offer": "दिवाली ऑफर", "Reviews": "रिव्यू", "FAQ": "सवाल", "Visit us": "हमसे मिलें", "Open every day, 8am to 10pm": "रोज़ खुला, सुबह 8 से रात 10 बजे तक", "Fresh mithai,<br><span>made every morning.</span>": "ताज़ी मिठाई,<br><span>हर सुबह बनी।</span>", "Three generations of halwais on Boring Road. Pure ghee, real kesar and the Bihar sweets your nani remembers.": "बोरिंग रोड पर तीन पीढ़ियों के हलवाई। शुद्ध घी, असली केसर और वो बिहारी मिठाइयां जो नानी को याद हैं।", "Build a gift box": "गिफ्ट बॉक्स बनाएं", "See the price list": "रेट लिस्ट देखें", "Pure desi ghee": "शुद्ध देसी घी", "Made fresh daily": "रोज़ ताज़ा", "Home delivery in Patna": "पटना में होम डिलीवरी", "Gift boxes": "गिफ्ट बॉक्स", "Hot jalebi": "गरम जलेबी", "Shuddh<br>ghee": "शुद्ध<br>घी", "Rate list": "रेट लिस्ट", "Today at the counter": "आज काउंटर पर", "Prices are for fresh stock. Bengali sweets are priced per piece.": "दाम ताज़े माल के हैं। बंगाली मिठाई प्रति पीस।", "Build your gift box": "अपना गिफ्ट बॉक्स बनाएं", "Pick any 4 sweets": "कोई भी 4 मिठाई चुनें", "Each choice fills one quarter of a 1 kg box (250 g each). Tap again to remove.": "हर मिठाई 1 किलो बॉक्स का एक हिस्सा (250 ग्राम)। हटाने के लिए फिर से दबाएं।", "Box total": "बॉक्स कुल", "0 of 4 chosen": "4 में से 0 चुनी", "Order this box on WhatsApp": "यह बॉक्स WhatsApp पर ऑर्डर करें", "Festival offer": "त्योहार ऑफर", "Diwali boxes, 10% off till Dhanteras": "दिवाली बॉक्स, धनतेरस तक 10% छूट", "Pre-book office and family boxes now. We pack, label and deliver across Patna.": "ऑफिस और परिवार के बॉक्स अभी बुक करें। पैकिंग, नाम और पूरे पटना में डिलीवरी हम करेंगे।", "days": "दिन", "hours": "घंटे", "mins": "मिनट", "secs": "सेकंड", "Kind words": "आपकी बातें", "Patna loves its mithai": "पटना को अपनी मिठाई पसंद है", "The motichoor tastes exactly like my wedding laddu from 1994. We order every Diwali.": "मोतीचूर का स्वाद बिल्कुल 1994 की मेरी शादी के लड्डू जैसा है। हर दिवाली यहीं से मंगाते हैं।", "Sunita Sinha": "सुनीता सिन्हा", "Kankarbagh": "कंकड़बाग", "Ordered 60 boxes for our office on WhatsApp. Packed neatly and delivered on time.": "ऑफिस के लिए WhatsApp पर 60 बॉक्स मंगाए। अच्छी पैकिंग, समय पर डिलीवरी।", "Rahul Verma": "राहुल वर्मा", "Fraser Road": "फ्रेज़र रोड", "Their thekua is the closest thing to home I can find. Not too sweet, very crisp.": "इनका ठेकुआ बिल्कुल घर जैसा है। ज़्यादा मीठा नहीं, खूब कुरकुरा।", "Anjali Kumari": "अंजलि कुमारी", "Patliputra Colony": "पाटलिपुत्र कॉलोनी", "Questions": "सवाल जवाब", "Good to know": "जानने लायक", "Do you deliver in Patna?": "क्या पटना में डिलीवरी है?", "Yes, across Patna city for orders above ₹500. Most orders reach you the same day.": "हां, ₹500 से ऊपर के ऑर्डर पर पूरे पटना में। ज़्यादातर ऑर्डर उसी दिन पहुंच जाते हैं।", "How long do the sweets stay fresh?": "मिठाई कितने दिन ताज़ी रहती है?", "Milk sweets are best in 2 days, kept cool. Laddu, khaja and thekua stay good for about a week.": "दूध की मिठाई ठंडी जगह 2 दिन में खा लें। लड्डू, खाजा और ठेकुआ लगभग एक हफ्ता अच्छे रहते हैं।", "Can I order for a wedding or puja?": "शादी या पूजा के लिए ऑर्डर दे सकते हैं?", "Of course. Send the date and quantity on WhatsApp and we will share a quote the same day.": "बिल्कुल। तारीख और मात्रा WhatsApp पर भेजें, उसी दिन रेट बता देंगे।", "Do you have sugar free sweets?": "क्या शुगर फ्री मिठाई मिलती है?", "Our dry fruit laddu has no added sugar. Ask at the counter for the day's sugar free barfi.": "हमारे ड्राई फ्रूट लड्डू में चीनी नहीं है। शुगर फ्री बर्फी काउंटर पर पूछें।", "Come for the jalebi, stay for the chai": "जलेबी के लिए आइए, चाय पर रुकिए", "Address": "पता", "Near Boring Road Chauraha, Patna, Bihar 800001": "बोरिंग रोड चौराहा के पास, पटना, बिहार 800001", "Hours": "समय", "Every day, 8am to 10pm": "रोज़, सुबह 8 से रात 10 बजे तक", "7am to 11am and 5pm to 9pm": "सुबह 7 से 11 और शाम 5 से 9 बजे", "Bulk order for a wedding or puja": "शादी या पूजा के लिए थोक ऑर्डर", "Your name": "आपका नाम", "Occasion": "मौका", "Wedding": "शादी", "Puja": "पूजा", "Office": "ऑफिस", "Birthday": "जन्मदिन", "Boxes needed": "कितने बॉक्स", "Date": "तारीख", "Send on WhatsApp": "WhatsApp पर भेजें", "WhatsApp did not open?": "WhatsApp नहीं खुला?", "Tap here": "यहां दबाएं", "Box is full. Tap a chosen sweet to take it out.": "बॉक्स भर गया। कोई मिठाई हटाने के लिए उसे दबाएं।", "Pick 4 to order": "ऑर्डर के लिए 4 चुनें", "Happy Diwali!": "शुभ दीपावली!", "Tap a sweet": "मिठाई चुनें"}}</script>
+<script src="i18n.js?v=7"></script>
+<script src="dyn.js?v=7"></script>
+<script src="fx.js?v=7"></script>
+<script src="app.js?v=7"></script>
 </body>
 </html>
