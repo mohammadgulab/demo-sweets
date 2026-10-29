@@ -72,3 +72,10 @@
 [dir=rtl] body *{letter-spacing:0!important}
 [dir=rtl] .mega{font-size:clamp(2.3rem,9vw,6rem);line-height:1.2;text-transform:none}
 [dir=rtl] .masthead h1{line-height:1.3}
+
+/* mobile alignment guard */
+html{overflow-x:hidden}
+body{overflow-x:clip;max-width:100%}
+.swap,figure.swap{margin:0}
+.m-0{margin:0!important}
+h1,h2,h3{overflow-wrap:break-word}
